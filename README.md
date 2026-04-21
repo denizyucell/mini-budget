@@ -1,10 +1,10 @@
-# Mini Budget - V1 Güncellemesi
+# Mini Budget - V2 Güncellemesi
 Öğrenci: Deniz Yücel Uzunay (251478081)
 
-## V1 Görev Listesi (Tasks)
-1. **Görev 1:** `list` komutunu `while` döngüsü kullanarak implemente etmek (Listeler `[]` kullanılmadan, dosyadan satır satır `readline()` ile okuyarak).
-2. **Görev 2:** SPEC dosyasına eklenen "Negatif tutar girilemez" kuralını koda aktarmak.
-3. **Görev 3:** V0'dan V1'e geçişi anlatan bu README dosyasını hazırlamak.
+## V2 Görev Listesi (Tasks)
+1. **Görev 1:** `balance` komutunu kalıcı olarak projeye entegre etmek.
+2. **Görev 2:** `delete` komutunu ekleyerek, istenen ID'ye sahip satırı dosyadan silme işlemini kodlamak.
+3. **Görev 3:** V1 -> V2 geçişini anlatan bu README dosyasını güncellemek.
 
-## V0 -> V1 Değişim Özeti
-V0 sürümünde sadece klasör oluşturma (init) ve basit kayıt ekleme (add) işlemleri çalışıyordu. Döngüler kullanılmamıştı ve hatalar tam yakalanmıyordu. V1 sürümünde ise projeye `while` döngüsü entegre edildi ve `list` komutu sayesinde kaydedilen işlemlerin ekrana yazdırılması sağlandı. Ayrıca negatif bakiye girişi engellendi.
+## V1 -> V2 Değişim Özeti
+V1 sürümünde işlemler sadece kaydediliyor ve listeleniyordu. V2 sürümü ile birlikte uygulamanın yetenekleri artırıldı. Gelir ve giderleri toplayıp net bakiyeyi veren `balance` komutu ve hatalı girilen bir işlemi ID numarası ile veritabanından silmemizi sağlayan `delete` komutu başarıyla koda eklendi.
